@@ -4,7 +4,7 @@
 
 ### *Developed by TehranCommunity (TC)*
 
-**Lead Developer:** [D3F417](https://t.me/Ognorah)
+**Lead Developer:** [D3F417](https://github.com/D3F417)
 
 *The most beautiful and intelligent AI chat interface you've ever seen* ✨
 
@@ -12,6 +12,19 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
+
+---
+
+## 🚀 **Live Demo**
+
+### ✨ **Experience TC AI Right Now!**
+
+🌐 **[Try TC AI Live →](https://ai.tcommunity.pro)**
+
+*No installation required! Jump straight into the future of AI conversations with our live demo. Experience all features including multi-model support, real-time responses, and our stunning interface.*
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-FF6B9D?style=for-the-badge&logoColor=white)](https://ai.tcommunity.pro)
+[![Status](https://img.shields.io/badge/Status-🟢_Online-00C851?style=for-the-badge)](https://ai.tcommunity.pro)
 
 </div>
 
@@ -118,7 +131,7 @@ TC AI supports **15+ cutting-edge AI models** from leading companies, all **comp
 
 1. **Clone the TC AI repository:**
 ```bash
-git clone https://github.com/mostaghell/tcai.git
+git clone https://github.com/TehranCommunity/tc-ai.git
 cd tc-ai
 ```
 
@@ -153,7 +166,7 @@ POLLINATIONS_API_TOKEN=your_pollinations_api_token_here
 ```
 
 **🔗 How to get API keys:**
-- **Pollinations AI**: Visit [pollinations.ai](https://auth.pollinations.ai/) to get your free API token
+- **Pollinations AI**: Visit [pollinations.ai](https://pollinations.ai) to get your free API token
 - **OpenAI**: Get your key from [platform.openai.com](https://platform.openai.com)
 - **Anthropic**: Visit [console.anthropic.com](https://console.anthropic.com)
 
@@ -269,7 +282,7 @@ The project uses several configuration files:
 *Building the future of AI interfaces*
 
 **🚀 Lead Developer & Architect**  
-**[D3F417](https://t.me/Ognorah)**  
+**[D3F417](https://github.com/D3F417)**  
 *The mastermind behind TC AI's revolutionary design*
 
 ---
@@ -314,11 +327,11 @@ This project is proudly open source and available under the **[MIT License](LICE
 # 🧠 **TC AI**
 ### *Your Cognitive AI Assistant for Intelligent Conversations*
 
-**Made with 💜 by [TehranCommunity](https://github.com/mostaghell)**
+**Made with ❤️ by [TehranCommunity](https://github.com/TehranCommunity)**
 
 *Experience the future of AI interaction today!*
 
-[![GitHub stars](https://img.shields.io/github/stars/TehranCommunity/tc-ai?style=social)](https://github.com/mostaghell/tcai/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/TehranCommunity/tc-ai?style=social)](https://github.com/mostaghell/tcai/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/TehranCommunity/tc-ai?style=social)](https://github.com/TehranCommunity/tc-ai/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/TehranCommunity/tc-ai?style=social)](https://github.com/TehranCommunity/tc-ai/network/members)
 
 </div>
