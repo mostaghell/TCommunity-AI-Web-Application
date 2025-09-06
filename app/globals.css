@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 320 83.3% 45%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-[#2d1b2e];
+  }
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  @apply bg-[#d63384]/50 rounded-full;
+}
+
+/* RTL/LTR text direction support */
+.markdown-content {
+  line-height: 1.7;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.markdown-content[dir="rtl"] {
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+
+.markdown-content[dir="ltr"] {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+/* Better link styling */
+.markdown-content a {
+  @apply text-[#ff6b9d] hover:text-[#ff8fab] underline transition-colors;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  word-break: break-all;
+}
+
+.markdown-content a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Code block improvements */
+.markdown-content pre {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.markdown-content code {
+  direction: ltr !important;
+  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+}
+
+/* Mixed content handling */
+.markdown-content p {
+  unicode-bidi: plaintext;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  unicode-bidi: plaintext;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-content h1:first-child,
+.markdown-content h2:first-child,
+.markdown-content h3:first-child {
+  margin-top: 0;
+}
+
+/* List improvements */
+.markdown-content ul,
+.markdown-content ol {
+  unicode-bidi: plaintext;
+}
+
+.markdown-content li {
+  unicode-bidi: plaintext;
+  margin-bottom: 0.25em;
+}
+
+/* Table improvements */
+.markdown-content table {
+  direction: ltr;
+  text-align: left;
+}
+
+.markdown-content[dir="rtl"] table {
+  direction: rtl;
+  text-align: right;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#d63384]/70;
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+/* Markdown styling */
+.markdown-content {
+  @apply text-[#f3d9e2];
+}
+
+.markdown-content pre {
+  @apply rounded-lg overflow-hidden;
+}
+
+.markdown-content code {
+  font-family: "Fira Code", monospace;
+}
+
+.markdown-content img {
+  @apply max-w-full h-auto rounded-lg my-4;
+}
+
+.markdown-content strong {
+  @apply font-bold text-[#ffe0e6];
+}
+
+.markdown-content em {
+  @apply italic text-[#ff8fab];
+}
