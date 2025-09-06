@@ -131,7 +131,7 @@ TC AI supports **15+ cutting-edge AI models** from leading companies, all **comp
 
 1. **Clone the TC AI repository:**
 ```bash
-git clone https://github.com/TehranCommunity/tc-ai.git
+git clone https://github.com/mostaghell/TCommunity-AI-Web-Application.git
 cd tc-ai
 ```
 
@@ -331,7 +331,7 @@ This project is proudly open source and available under the **[MIT License](LICE
 
 *Experience the future of AI interaction today!*
 
-[![GitHub stars](https://img.shields.io/github/stars/TehranCommunity/tc-ai?style=social)](https://github.com/TehranCommunity/tc-ai/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/TehranCommunity/tc-ai?style=social)](https://github.com/TehranCommunity/tc-ai/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/mostaghell/TCommunity-AI-Web-Application?style=social)](https://github.com/mostaghell/TCommunity-AI-Web-Application/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/mostaghell/TCommunity-AI-Web-Application?style=social)](https://github.com/mostaghell/TCommunity-AI-Web-Application/network/members)
 
 </div>
