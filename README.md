@@ -4,7 +4,7 @@
 
 ### *Developed by TehranCommunity (TC)*
 
-**Lead Developer:** [D3F417](https://github.com/D3F417)
+**Lead Developer:** [D3F417](https://t.me/Ognorah)
 
 *The most beautiful and intelligent AI chat interface you've ever seen* ✨
 
@@ -118,7 +118,7 @@ TC AI supports **15+ cutting-edge AI models** from leading companies, all **comp
 
 1. **Clone the TC AI repository:**
 ```bash
-git clone https://github.com/TehranCommunity/tc-ai.git
+git clone https://github.com/mostaghell/tcai.git
 cd tc-ai
 ```
 
@@ -153,7 +153,7 @@ POLLINATIONS_API_TOKEN=your_pollinations_api_token_here
 ```
 
 **🔗 How to get API keys:**
-- **Pollinations AI**: Visit [pollinations.ai](https://pollinations.ai) to get your free API token
+- **Pollinations AI**: Visit [pollinations.ai](https://auth.pollinations.ai/) to get your free API token
 - **OpenAI**: Get your key from [platform.openai.com](https://platform.openai.com)
 - **Anthropic**: Visit [console.anthropic.com](https://console.anthropic.com)
 
@@ -269,7 +269,7 @@ The project uses several configuration files:
 *Building the future of AI interfaces*
 
 **🚀 Lead Developer & Architect**  
-**[D3F417](https://github.com/D3F417)**  
+**[D3F417](https://t.me/Ognorah)**  
 *The mastermind behind TC AI's revolutionary design*
 
 ---
@@ -314,11 +314,11 @@ This project is proudly open source and available under the **[MIT License](LICE
 # 🧠 **TC AI**
 ### *Your Cognitive AI Assistant for Intelligent Conversations*
 
-**Made with ❤️ by [TehranCommunity](https://github.com/TehranCommunity)**
+**Made with 💜 by [TehranCommunity](https://github.com/mostaghell)**
 
 *Experience the future of AI interaction today!*
 
-[![GitHub stars](https://img.shields.io/github/stars/TehranCommunity/tc-ai?style=social)](https://github.com/TehranCommunity/tc-ai/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/TehranCommunity/tc-ai?style=social)](https://github.com/TehranCommunity/tc-ai/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/TehranCommunity/tc-ai?style=social)](https://github.com/mostaghell/tcai/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/TehranCommunity/tc-ai?style=social)](https://github.com/mostaghell/tcai/network/members)
 
 </div>
